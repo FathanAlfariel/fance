@@ -4,25 +4,18 @@
     <div class="container-fluid">
         <!-- Navbar brand -->
         <a class="navbar-brand mt-2 mt-lg-0" href="#">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-            height="15"
-            alt="MDB Logo"
-            loading="lazy"
-          />
+          <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo" loading="lazy"/>
         </a>
+
         <!-- Left links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Dashboard</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Projects</a>
-          </li>
-        </ul>
+        <div class="input-group">
+          <input style="height: 40px;" type="text" class="form-control" placeholder="Search">
+          <a style="height: 40px;" class="input-group-text bg-primary text-white border-0" href="">
+            <span>
+              <i class="fa fa-search"></i>
+            </span>
+          </a>
+        </div>
         <!-- Left links -->
   
       <!-- Right elements -->
@@ -63,9 +56,9 @@
         <!-- Avatar -->
         <div class="dropdown">
           <a
-            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            class="nav-link dropdown-toggle d-flex align-items-center"
             href="#"
-            id="navbarDropdownMenuAvatar"
+            id="navbarDropdownMenuLink"
             role="button"
             data-mdb-toggle="dropdown"
             aria-expanded="false"

@@ -3,12 +3,36 @@
     <!-- Container wrapper -->
     <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <a class="navbar-brand mt-2 mx-2 mt-lg-0" href="#">
           <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo" loading="lazy"/>
         </a>
 
+        <!-- Alamat -->
+        <button style="width: 295px; font-size: 12px;" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-transparent shadow-none text-white-50 text-start fw-semibold">
+          <i class="fa-solid fa-location-dot fs-6 me-2 text-white"></i>Deliver to <span class="fw-bold text-white" style="font-size: 12px;">Malang 6023</span>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-light">
+                <h5 class="modal-title text-black" id="staticBackdropLabel">Choose your location</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Done</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Left links -->
-        <div class="input-group">
+        <div class="input-group ms-3">
           <input style="height: 40px;" type="text" class="form-control" placeholder="Search">
           <a style="height: 40px;" class="input-group-text bg-primary text-white border-0" href="">
             <span>
@@ -20,73 +44,36 @@
   
       <!-- Right elements -->
       <div class="d-flex align-items-center">
-        <!-- Icon -->
-        <a class="text-reset me-3" href="#">
+  
+        <!-- Account -->
+        <div class="dropdown hover ms-3" style="z-index: 2;">
+          <a class="bg-transparent text-white" href="#">Hello, user <br><span class="fw-bold">Account Settings</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <ul class="menu-dropdown" style="width: 190px;">
+            <li>
+              <a style="color: black;" href="/signin">
+                <button style="margin-top: 10px; margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm shadow-none w-100 fw-semibold">
+                  Sign in
+                </button>
+              </a>
+            </li>
+            <li><hr class="dropdown-divider text-white-50 bg-dark"></li>
+            <li><a style="padding-top: 7px;" href="#">Hello</a></li>
+            <li><a style="padding-top: 2.5px;" href="#">Text</a></li>
+            <li><a style="padding-top: 2.5px;" href="#">Page</a></li>
+            <li><a style="padding-top: 2.5px;" href="#">Thing</a></li>
+            <li><a style="padding-top: 2.5px;" href="#">Product</a></li>
+            <li><a style="padding-top: 2.5px; padding-bottom: 7px;" href="#">Text</a></li>
+          </ul>
+        </div>
+
+      <!-- Cart -->
+      <button type="button" class="btn btn-transparent align-self-center shadow-none">
+        <a class="text-white fs-5" href="#">
           <i class="fas fa-shopping-cart"></i>
         </a>
-  
-        <!-- Notifications -->
-        <div class="dropdown">
-          <a
-            class="text-reset me-3 dropdown-toggle hidden-arrow"
-            href="#"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-mdb-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <i class="fas fa-bell"></i>
-            <span class="badge rounded-pill badge-notification bg-danger">1</span>
-          </a>
-          <ul
-            class="dropdown-menu dropdown-menu-end"
-            aria-labelledby="navbarDropdownMenuLink"
-          >
-            <li>
-              <a class="dropdown-item" href="#">Some news</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Another news</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Avatar -->
-        <div class="dropdown">
-          <a
-            class="nav-link dropdown-toggle d-flex align-items-center"
-            href="#"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-mdb-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <img
-              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-              class="rounded-circle"
-              height="25"
-              alt="Black and White Portrait of a Man"
-              loading="lazy"
-            />
-          </a>
-          <ul
-            class="dropdown-menu dropdown-menu-end"
-            aria-labelledby="navbarDropdownMenuAvatar"
-          >
-            <li>
-              <a class="dropdown-item" href="#">My profile</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Settings</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Logout</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      </button>
       <!-- Right elements -->
     </div>
     <!-- Container wrapper -->

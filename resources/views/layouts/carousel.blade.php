@@ -1,37 +1,25 @@
-<!-- Carousel wrapper -->
-<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-  
-    <!-- Inner -->
-    <div class="carousel-inner">
-      <!-- Single item -->
-      <div class="carousel-item active">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="tales" alt="Sunset Over the City"/>
-      </div>
-  
-      <!-- Single item -->
-      <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="tales" alt="Canyon at Nigh"/>
-      </div>
-  
-      <!-- Single item -->
-      <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="tales" alt="Cliff Above a Stormy Sea"/>
-      </div>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="tales" alt="...">
     </div>
-    <!-- Inner -->
-  
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-        <span class="carousel-control-prev fs-2 ms-5 text-black" aria-hidden="true">
-            <i class="fa-solid fa-chevron-left"></i>
-        </span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
-        <span class="carousel-control-next fs-2 me-5 text-black" aria-hidden="true">
-            <i class="fa-solid fa-chevron-right"></i>
-        </span>
-        <span class="visually-hidden">Next</span>
-    </button>
+    <div class="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="tales" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="tales" alt="...">
+    </div>
   </div>
-  <!-- Carousel wrapper -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev fs-1 text-black ms-5" aria-hidden="true">
+      <i class="fa-solid fa-chevron-left"></i>
+    </span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next fs-1 text-black me-5">
+      <i class="fa-solid fa-chevron-right"></i>
+    </span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

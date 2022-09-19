@@ -33,19 +33,25 @@
                 <form class="bg-light border border-secondary rounded-2 p-4">
                     <!-- Username input -->
                     <div class="mb-3">
-                        <label class="form-label text-dark fs-6 fw-bold">Your name</label>
+                        <label class="form-label text-dark fs-6 fw-normal">Your name</label>
                         <input type="email" class="form-control" placeholder="First and last name"/>
                     </div>
 
                     <!-- Email input -->
                     <div class="mb-3">
-                        <label class="form-label text-dark fs-6 fw-bold">Email address</label>
+                        <label class="form-label text-dark fs-6 fw-normal">Email address</label>
                         <input type="email" class="form-control" placeholder="Your email" />
                     </div>
 
                     <!-- Password input -->
                     <div class="mb-3">
-                        <label class="form-label text-dark fs-6 fw-bold">Password</label>
+                        <label class="form-label text-dark fs-6 fw-normal">Password</label>
+                        <input type="password" class="form-control" placeholder="Your password" />
+                    </div>
+
+                    <!-- Confirm Password input -->
+                    <div class="mb-3">
+                        <label class="form-label text-dark fs-6 fw-normal">Confirm password</label>
                         <input type="password" class="form-control" placeholder="Your password" />
                     </div>
 

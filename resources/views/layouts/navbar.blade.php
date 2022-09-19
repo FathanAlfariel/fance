@@ -53,12 +53,20 @@
           <ul class="menu-dropdown" style="width: 190px;">
             <li>
               <a style="color: black;" href="/signin">
-                <button style="margin-top: 10px; margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm shadow-none w-100 fw-semibold">
+                <button style="margin-top: 10px; margin-bottom: 3px;" type="button" class="btn btn-primary btn-sm shadow-none w-100 fw-semibold">
                   Sign in
                 </button>
               </a>
             </li>
-            <li><hr class="dropdown-divider text-white-50 bg-dark"></li>
+            <li><a class="text-dark text-center">OR</a></li>
+            <li>
+              <a style="color: black;" href="/signup">
+                <button style="margin-top: 3px; margin-bottom: 10px;" type="button" class="btn btn-primary btn-sm shadow-none w-100 fw-semibold">
+                  Sign up
+                </button>
+              </a>
+            </li>
+            <li><hr class="dropdown-divider text-white-50 bg-secondary"></li>
             <li><a style="padding-top: 7px;" href="#">Account</a></li>
             <li><a style="padding-top: 2.5px;" href="#">Become a seller</a></li>
             <li><a style="padding-top: 2.5px; padding-bottom: 7px;" href="#">Sign out</a></li>

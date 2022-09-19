@@ -33,13 +33,13 @@
                 <form class="bg-light border border-secondary rounded-2 p-4">
                     <!-- Email input -->
                     <div class="mb-3">
-                        <label class="form-label text-dark fs-6 fw-bold">Email address</label>
+                        <label class="form-label text-dark fs-6 fw-normal">Email address</label>
                         <input type="email" class="form-control" />
                     </div>
 
                     <!-- Password input -->
                     <div class="mb-3">
-                        <label class="form-label text-dark fs-6 fw-bold">Password</label>
+                        <label class="form-label text-dark fs-6 fw-normal">Password</label>
                         <input type="password" class="form-control" />
                     </div>
 

@@ -1,40 +1,16 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-light text-white shadow-none">
     <!-- Container wrapper -->
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-left: 30px; margin-right: 30px;">
         <!-- Navbar brand -->
-        <a class="navbar-brand mt-2 mx-2 mt-lg-0 fw-bold" href="#">
-          Fance
+        <a class="navbar-brand mt-2 mt-lg-0 fw-bold" href="#">
+          GoodFance
         </a>
 
-        <!-- Alamat -->
-        <button style="width: 10rem; font-size: 12px;" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-transparent shadow-none text-white-50 text-start fw-semibold">
-          <i class="fa-solid fa-location-dot fs-6 me-2 text-white"></i>Deliver to <span class="fw-bold text-white" style="font-size: 12px;">Malang 6023</span>
-        </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header bg-light">
-                <h5 class="modal-title text-black" id="staticBackdropLabel">Choose your location</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Done</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <!-- Search -->
-        <div class="input-group ms-3">
+        <div class="input-group ms-2">
           <input style="height: 40px;" type="text" class="form-control" placeholder="Search">
-          <a style="height: 40px;" class="input-group-text bg-primary text-white border-0" href="">
+          <a style="height: 40px;" class="input-group-text bg-dark text-white border-0" href="">
             <span>
               <i class="fa fa-search"></i>
             </span>
@@ -44,9 +20,14 @@
   
       <!-- Right elements -->
       <div class="d-flex align-items-center">
+
+        <div class="btn-group shadow-none mt-2 mt-lg-0 mt-md-0 mt-xl-0">
+          <a style="width: 100px; font-size: 14px;" href="/signin" class="btn btn-outline-dark align-self-center mx-2 mx-lg-3 mx-md-2 mx-xl-3 rounded fw-semibold">Sign in</a>
+          <a style="width: 100px; font-size: 14px;" href="/signup" class="btn btn-dark align-self-center me-2 rounded fw-semibold">Sign up</a>
+        </div>
   
         <!-- Account -->
-        <div class="dropdown hover ms-3" style="z-index: 2;">
+        <!-- <div class="dropdown hover ms-3" style="z-index: 2;">
           <a class="bg-transparent text-white" href="#">Hello, user <br><span class="fw-bold">Account Settings</span>
             <i class="fa-solid fa-caret-down"></i>
           </a>
@@ -71,16 +52,17 @@
             <li><a style="padding-top: 2.5px;" href="#">Become a seller</a></li>
             <li><a style="padding-top: 2.5px; padding-bottom: 7px;" href="#">Sign out</a></li>
           </ul>
-        </div>
+        </div>-->
 
-      <!-- Cart -->
-      <button type="button" class="btn btn-transparent align-self-center shadow-none">
-        <a class="text-white fs-5" href="#">
-          <i class="fas fa-shopping-cart"></i>
-        </a>
-      </button>
+        
       <!-- Right elements -->
     </div>
+    <!-- Cart -->
+    <button type="button" class="btn btn-transparent align-self-center shadow-none mt-2 mt-lg-0 mt-md-0 mt-xl-0">
+      <a class="text-dark fs-5" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    </button>
     <!-- Container wrapper -->
   </nav>
   <!-- Navbar -->

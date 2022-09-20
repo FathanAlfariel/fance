@@ -85,7 +85,7 @@
       }
     </style>
 </head>
-<body>
+<body class="bg-light">
   
     @include('layouts.navbar')
     @include('layouts.second_nav')

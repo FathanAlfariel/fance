@@ -33,7 +33,7 @@
                 <form class="bg-light border border-secondary rounded-2 p-4">
                     <!-- Email input -->
                     <div class="mb-3">
-                        <label class="form-label text-dark fs-6 fw-normal">Email address</label>
+                        <label class="form-label text-dark fw-normal">Email address</label>
                         <input type="email" class="form-control" />
                     </div>
 

@@ -9,8 +9,8 @@
 
         <!-- Search -->
         <div class="input-group ms-2">
-          <input style="height: 40px;" type="text" class="form-control" placeholder="Search">
-          <a style="height: 40px;" class="input-group-text bg-dark text-white border-0" href="">
+          <input style="height: 40px; border-radius: 30px 0 0 30px;" type="text" class="form-control" placeholder="Search">
+          <a style="height: 40px; border-radius: 0 30px 30px 0;" class="input-group-text bg-dark text-white border-0" href="">
             <span>
               <i class="fa fa-search"></i>
             </span>
